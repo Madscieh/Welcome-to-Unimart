@@ -8,6 +8,7 @@ public class Teleporter : MonoBehaviour
     public static int teleportCheck=0;
     //private Collider2D stickCollider;
 
+    // Start is called before the first frame update
     void Start()
     {
         //stickCollider = GetComponent<Stick>().stickCollider;
@@ -20,10 +21,7 @@ public class Teleporter : MonoBehaviour
             teleportCheck = 0;
             StartCoroutine(Teleport());
         }
-        
     }
-
-
 
     IEnumerator Teleport()
     {
@@ -32,8 +30,6 @@ public class Teleporter : MonoBehaviour
         player.transform.position = new Vector2(teleporter.transform.position.x, teleporter.transform.position.y);
     }
 
-    // Start is called before the first frame update
-   
     // Update is called once per frame
     void Update()
     {

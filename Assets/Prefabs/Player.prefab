@@ -70,6 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a1020dcb16cef3418caceebd3a83f86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stickCollider: {fileID: 0}
   animator: {fileID: 0}
 --- !u!1 &794906812
 GameObject:
@@ -215,6 +216,7 @@ MonoBehaviour:
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
   m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1 &1077084591
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,8 +600,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.764151, g: 0.34242615, b: 0.34242615, a: 1}
+  m_Sprite: {fileID: 8931967407975474153, guid: f5c5fb661b540f246ae8556edfe492c2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
