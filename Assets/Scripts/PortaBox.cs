@@ -18,6 +18,7 @@ public class PortaBox : MonoBehaviour
         {
             GetComponent<BoxCollider2D>().enabled = false;
             this.gameObject.GetComponent<SpriteRenderer>().sprite = PortaAberta;
+            SoundManager.PlaySound("portaabrindo");
         }
     }
      // Update is called once per frame
