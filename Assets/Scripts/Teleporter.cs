@@ -5,9 +5,8 @@ using UnityEngine;
 public class Teleporter : MonoBehaviour
 {
     public GameObject teleporter, player;
-    public static int teleportCheck=0;
+    public static int teleportCheck = 0;
     //private Collider2D stickCollider;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +25,7 @@ public class Teleporter : MonoBehaviour
     IEnumerator Teleport()
     {
         
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f);
         player.transform.position = new Vector2(teleporter.transform.position.x, teleporter.transform.position.y);
     }
 

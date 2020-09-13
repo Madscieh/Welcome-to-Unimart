@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Projectile
   - Enemy
+  - PBox
   layers:
   - Default
   - TransparentFX
